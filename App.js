@@ -1,12 +1,13 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+// import { StatusBar } from 'expo-status-bar';
+import React, { Component } from 'react'
+// import Cat from './react-comps/Cat';
+import { StyleSheet, Text, View, Button } from 'react-native';
+import Mains from './calcutor-com/Main-calculator';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <Mains />
+    
   );
 }
 
@@ -17,4 +18,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  dummyText: {
+    margin: 16,
+    padding: 16,
+    borderWidth: 2,
+    borderColor: 'blue',
+  }
 });
