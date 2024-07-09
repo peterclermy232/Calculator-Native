@@ -23,7 +23,7 @@ Before starting 🏁, you need to have Git, Node, Expo and React Native installe
 
 🏁 Starting
 # Clone this project
-$ git clone https://github.com/bangadam/calculator-app
+$ git clone https://github.com/peterclermy232/Calculator-Native
 
 # Access
 $ cd calculator-app
